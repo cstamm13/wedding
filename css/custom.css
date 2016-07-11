@@ -83,3 +83,8 @@ body {
 .location-name {
     color: #d29a09;
 }
+
+.contact {
+    alignment: center;
+    margin-top: 50px;
+}
