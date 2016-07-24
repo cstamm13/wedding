@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "AR DECODE";
+    src: url('../fonts/ARDECODE.ttf');
+}
 body {
     background: url("../images/background9.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -34,6 +38,8 @@ body {
 
 .navbar-inverse .navbar-brand {
     color: #d29a09;
+    font-family: "AR DECODE", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20pt;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
@@ -41,12 +47,35 @@ body {
 .navbar-inverse .navbar-nav > .active > a:focus {
     color: #0f0f0f;
     background-color: #d29a09;
+    font-family: "AR DECODE", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20pt;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
  color: #d29a09;
     background-color: transparent;
+    font-family: "AR DECODE", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20pt;
+}
+
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a,
+.navbar-inverse .navbar-nav .open .dropdown-menu,
+.navbar-inverse .dropdown-menu {
+    background-color: #2a2a2b;
+    color:#d29a09;
+    font-size: 14pt;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    background-color: #222222;
+}
+
+.navbar {
+    font-family: "AR DECODE", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20pt;
 }
 
 .gallery
