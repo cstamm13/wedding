@@ -63,7 +63,9 @@
                                 <li><a href="gallery.html">Gallery</a></li>
                                 <li><a href="location.html">Location</a></li>
                                 <li><a href="vendors.html">Our Vendors</a></li>
-                                <li><a target="_blank" href="https://www.macys.com/wgl/registry/guest/2294636?cm_sp=EXPERIMENT-_-Registry_16B_GVR1-_-Test">Registry</a></li>
+                                <li><a target="_blank"
+                                       href="https://www.macys.com/wgl/registry/guest/2294636?cm_sp=EXPERIMENT-_-Registry_16B_GVR1-_-Test">Registry</a>
+                                </li>
                             </ul>
                         </li>
                     </ul>
@@ -77,7 +79,7 @@
 
 <!-- Carousel
 ================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel" >
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner" role="listbox">
         <div class="item active">
             <img class="first-slide" src="images/1.jpg" alt="First slide" height="480" width="360">
@@ -135,7 +137,8 @@
             <img class="img-circle" src="images/placeholder.gif" alt="Generic placeholder image" width="140"
                  height="140">
             <h2>Heading</h2>
-            <p class="snippet-text">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula
+            <p class="snippet-text">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                Vestibulum id ligula
                 porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut
                 fermentum massa justo sit amet risus.</p>
             <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
@@ -149,10 +152,14 @@
 
     <div class="row featurette">
         <div class="col-md-7">
-            <h2 class="featurette-heading"><a href="bridesmaids.html">Meet the Bridesmaids</a><p><span
-                    class="text-muted">It'll blow your mind.</span></p></h2>
-            <p class="lead">Who are the people Bobbi volunteered as tribute? This gaggle of girls are those she chooses
-            to surround herself with, and each one has hurt Casey emotionally or physically (or both).</p>
+            <div class="party-heading">
+                <h2 class="featurette-heading"><a href="bridesmaids.html">Meet the Bridesmaids</a>
+                    <p><span
+                            class="text-muted">It'll blow your mind.</span></p></h2>
+                <p class="lead">Who are the people Bobbi volunteered as tribute? This gaggle of girls are those she
+                    chooses
+                    to surround herself with, and each one has hurt Casey emotionally or physically (or both).</p>
+            </div>
         </div>
         <div class="col-md-5">
             <img class="featurette-image img-responsive center-block" src="images/bobbi.jpg"
@@ -164,9 +171,14 @@
 
     <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-            <h2 class="featurette-heading" href="groomsmen.html">Meet the Groomsmen<p><span class="text-muted">See for yourself.</span></p>
-            </h2>
-            <p class="lead">Casey is mysterious enough. The company he keeps close simply makes him mysteriouser.</p>
+            <div class="party-heading">
+                <h2 class="featurette-heading"><a href="groomsmen.html">Meet the Groomsmen</a>
+                    <p><span
+                            class="text-muted">See for yourself.</span></p>
+                </h2>
+                <p class="lead">Casey is mysterious enough. The company he keeps close simply makes him
+                    mysteriouser.</p>
+            </div>
         </div>
         <div class="col-md-5 col-md-pull-7">
             <img class="featurette-image img-responsive center-block" src="images/casey.jpg"
@@ -208,7 +220,7 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
-                $('body').append('<div id="toTop" class="btn btn-info"><span class="glyphicon glyphicon-chevron-up"></span></div>');
+        $('body').append('<div id="toTop" class="btn btn-info"><span class="glyphicon glyphicon-chevron-up"></span></div>');
         $(window).scroll(function () {
             if ($(this).scrollTop() != 0) {
                 $('#toTop').fadeIn();
@@ -216,11 +228,11 @@
                 $('#toTop').fadeOut();
             }
         });
-            $('#toTop').click(function () {
-                $("html, body").animate({scrollTop: 0}, 600);
-                return false;
-            });
+        $('#toTop').click(function () {
+            $("html, body").animate({scrollTop: 0}, 600);
+            return false;
         });
+    });
 </script>
 <footer>
     <div class="row">
