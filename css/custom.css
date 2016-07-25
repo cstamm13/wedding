@@ -26,12 +26,6 @@ body {
     padding: 5px;
 }
 
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-}
-
 .col-pic {
     margin-top: 10%;
 }
