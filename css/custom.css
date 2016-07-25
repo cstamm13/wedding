@@ -117,3 +117,7 @@ body {
     alignment: center;
     margin-top: 50px;
 }
+
+.party-heading a {
+    color: #3c3c3c;
+}
