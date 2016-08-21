@@ -206,7 +206,21 @@
         });
     });
 </script>
-<!-- Footer -->
+
+<!-- Dropdown submenu -->
+<script type="text/javascript">
+    (function ($) {
+        $(document).ready(function () {
+            $('ul.dropdown-menu [data-toggle=dropdown]').on('mouseover', function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+                $(this).parent().siblings().removeClass('open');
+                $(this).parent().toggleClass('open');
+            });
+        });
+    })(jQuery);
+</script>
+
 <footer>
     <div class="row">
         <div class="col-lg-12">
