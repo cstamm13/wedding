@@ -8,6 +8,11 @@
     src: url('../fonts/Copperplate Gothic Regular.otf');
 }
 
+@font-face {
+    font-family: "Newtext Regular";
+    src: url('../fonts/Newtext.ttf');
+}
+
 body {
     background: url("../images/background9.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -31,6 +36,14 @@ body {
     background:rgba(0,0,0,0.7);
     color: #cccccc;
     padding: 5px;
+}
+
+.paragraph-text {
+    font-family: "Newtext Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: rgba(0,0,0,0.7);
+    color: #cccccc;
+    font-size: large;
+    /*padding: 5px;*/
 }
 
 .col-pic {
