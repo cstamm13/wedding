@@ -43,7 +43,7 @@ body {
     background: rgba(0,0,0,0.7);
     color: #cccccc;
     font-size: large;
-    /*padding: 5px;*/
+    padding: 5px;
 }
 
 .col-pic {
