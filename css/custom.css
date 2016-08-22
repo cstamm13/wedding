@@ -139,6 +139,10 @@ body {
     font-family: "Copperplate Gothic Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.not-so-big {
+    font-size: 20px;
+}
+
 .contact {
     alignment: center;
     margin-top: 50px;
