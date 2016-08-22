@@ -13,6 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-submenu.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -57,22 +58,25 @@
                         <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li class="dropdown active">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                               aria-haspopup="true" aria-expanded="false">Other Stuff <span class="caret"></span></a>
+                            <a tabindex="0" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false" data-submenu>
+                                Other Stuff <span class="caret"></span>
+                            </a>
+
                             <ul class="dropdown-menu">
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="location.html">Location</a></li>
-                                <li><a href="vendors.html">Our Vendors</a></li>
-                                <li><a href="bridesmaids.html">Bridesmaids</a></li>
-                                <li><a href="groomsmen.html">Groomsmen</a></li>
+                                <li><a href="gallery.html" tabindex="0">Gallery</a></li>
+                                <li><a href="location.html" tabindex="0">Location</a></li>
+                                <li><a href="vendors.html" tabindex="0">Our Vendors</a></li>
+                                <li><a href="bridesmaids.html" tabindex="0">Bridesmaids</a></li>
+                                <li><a href="groomsmen.html" tabindex="0">Groomsmen</a></li>
                                 <li class="divider"></li>
-                                <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle"
-                                                                         data-toggle="dropdown" onclick="">Registry</a>
+                                <li class="dropdown-submenu">
+                                    <a tabindex="0">Registry</a>
                                     <ul class="dropdown-menu">
-                                        <li><a target="_blank"
+                                        <li><a tabindex="0" target="_blank"
                                                href="https://www.macys.com/wgl/registry/guest/2294636?cm_sp=EXPERIMENT-_-Registry_16B_GVR1-_-Test">Macys</a>
                                         </li>
-                                        <li><a target="_blank"
+                                        <li><a tabindex="0" target="_blank"
                                                href="https://smile.amazon.com/wedding/casey-stamm-bobbi-gething-ringwood-january-2017/registry/2D47I4KCCFYFS">Amazon</a>
                                         </li>
                                     </ul>
@@ -198,6 +202,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
 <script src="js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap-submenu.min.js"></script>
+
 
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
@@ -219,18 +225,8 @@
     });
 </script>
 
-<!-- Dropdown submenu -->
 <script type="text/javascript">
-    (function ($) {
-        $(document).ready(function () {
-            $('ul.dropdown-menu [data-toggle=dropdown]').on('mouseover', function (event) {
-                event.preventDefault();
-                event.stopPropagation();
-                $(this).parent().siblings().removeClass('open');
-                $(this).parent().toggleClass('open');
-            });
-        });
-    })(jQuery);
+    $('[data-submenu]').submenupicker();
 </script>
 
 <footer>
