@@ -55,9 +55,19 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li class="dropdown active">
+                        <li class="active">
+                            <a tabindex="0" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false" data-submenu>
+                                About <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html" tabindex="0">About Us</a></li>
+                                <li><a href="location.html" tabindex="0">Location</a></li>
+                                <li><a href="bridesmaids.html" tabindex="0">Bridesmaids</a></li>
+                                <li><a href="groomsmen.html" tabindex="0">Groomsmen</a></li>
+                            </ul>
+                        </li>                        <li><a href="contact.html">Contact</a></li>
+                        <li class="dropdown">
                             <a tabindex="0" class="dropdown-toggle" data-toggle="dropdown" role="button"
                                aria-haspopup="true" aria-expanded="false" data-submenu>
                                 Other Stuff <span class="caret"></span>
@@ -65,10 +75,7 @@
 
                             <ul class="dropdown-menu">
                                 <li><a href="gallery.html" tabindex="0">Gallery</a></li>
-                                <li><a href="location.html" tabindex="0">Location</a></li>
                                 <li><a href="vendors.html" tabindex="0">Our Vendors</a></li>
-                                <li><a href="bridesmaids.html" tabindex="0">Bridesmaids</a></li>
-                                <li><a href="groomsmen.html" tabindex="0">Groomsmen</a></li>
                                 <li class="divider"></li>
                                 <li class="dropdown-submenu">
                                     <a tabindex="0">Registry</a>
