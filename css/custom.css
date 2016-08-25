@@ -287,7 +287,41 @@ a.list-group-item .list-group-item-heading {
     font-family: 'Glyphicons Halflings', sans-serif;
     content:"\e259";
     float: right;
-    color: #2a2a2b;
+    color: #555;
     font-size: 18px;
     line-height: 22px;
+}
+
+.panel {
+    background-color: #2a2a2b;
+}
+
+.panel-default {
+    border-color: #222222;
+}
+
+.panel-default > .panel-heading {
+    font-family: "Copperplate Gothic Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #d29a09;
+    background-color: #2a2a2b;
+    border-color: #222222;
+}
+
+.panel-title {
+    font-size: 19px;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-color: #222222;
+}
+
+.panel-body {
+    font-family: "Newtext Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #777;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.panel-heading:hover {
+    background-color: #222222;
 }
