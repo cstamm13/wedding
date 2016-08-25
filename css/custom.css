@@ -266,3 +266,28 @@ a.list-group-item .list-group-item-heading {
 .second-featurette-heading {
     margin-top: 10px;
 }
+
+.faqHeader {
+    font-size: 27px;
+    margin: 20px;
+    color: #d29a09;
+    font-family: "Copperplate Gothic Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.panel-heading [data-toggle="collapse"]:after {
+    font-family: 'Glyphicons Halflings', sans-serif;
+    content:"\e260";
+    float: right;
+    color: #d29a09;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+    font-family: 'Glyphicons Halflings', sans-serif;
+    content:"\e259";
+    float: right;
+    color: #2a2a2b;
+    font-size: 18px;
+    line-height: 22px;
+}
