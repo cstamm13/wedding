@@ -28,26 +28,26 @@ body {
     }
 }
 
-.carousel-controls{
-    position:relative;
-    width:300px;
-    margin:0 auto;
+.carousel-controls {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
 }
 
-.carousel-indicators{
-    top:0;
+.carousel-indicators {
+    top: 0;
 }
 
 .snippet-text {
     font-family: "Copperplate Gothic Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background:rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     color: #cccccc;
     padding: 5px;
 }
 
 .paragraph-text {
     font-family: "Newtext Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     color: #cccccc;
     font-size: large;
     padding: 5px;
@@ -81,18 +81,17 @@ body {
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
- color: #d29a09;
+    color: #d29a09;
     background-color: transparent;
     font-family: "AR DECODE", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20pt;
 }
 
-
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a,
 .navbar-inverse .navbar-nav .open .dropdown-menu,
 .navbar-inverse .dropdown-menu {
     background-color: #2a2a2b;
-    color:#d29a09;
+    color: #d29a09;
     font-size: 14pt;
 }
 
@@ -106,8 +105,7 @@ body {
     font-size: 20pt;
 }
 
-.gallery
-{
+.gallery {
     display: inline-block;
     margin-top: 90px;
     background-color: transparent;
@@ -115,11 +113,11 @@ body {
 }
 
 .thumbnail img {
-    min-height:200px;
-    height:200px;
-    border:0;
-    box-shadow:0;
-    border-radius:0;
+    min-height: 200px;
+    height: 200px;
+    border: 0;
+    box-shadow: 0;
+    border-radius: 0;
 }
 
 .lead {
@@ -276,7 +274,7 @@ a.list-group-item .list-group-item-heading {
 
 .panel-heading [data-toggle="collapse"]:after {
     font-family: 'Glyphicons Halflings', sans-serif;
-    content:"\e260";
+    content: "\e260";
     float: right;
     color: #d29a09;
     font-size: 18px;
@@ -285,7 +283,7 @@ a.list-group-item .list-group-item-heading {
 
 .panel-heading [data-toggle="collapse"].collapsed:after {
     font-family: 'Glyphicons Halflings', sans-serif;
-    content:"\e259";
+    content: "\e259";
     float: right;
     color: #555;
     font-size: 18px;
@@ -324,4 +322,27 @@ a.list-group-item .list-group-item-heading {
 
 .panel-heading:hover {
     background-color: #222222;
+}
+
+/*.panel-body a {*/
+    /*padding: 15px;*/
+    /*font-weight: bold;*/
+    /*float: left;*/
+/*}*/
+
+.panel-body a {
+    color: #d29a09;
+}
+
+.panel-body a:link a:active {
+    color: #d29a09;
+}
+
+.panel-body a:hover {
+    color:#d29a09;
+    text-decoration: underline;
+}
+
+.panel-body a:visited {
+    color:#777;
 }
