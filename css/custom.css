@@ -24,7 +24,11 @@ body {
 
 @media (max-width: 979px) {
     body {
-        padding-top: 0px;
+        padding-top: 0;
+    }
+
+    .carousel {
+        padding-top: 80px;
     }
 }
 
@@ -339,4 +343,8 @@ a.list-group-item .list-group-item-heading {
 
 .panel-body a:visited {
     color:#777;
+}
+
+.navbar-wrapper {
+    z-index: 10000;
 }
