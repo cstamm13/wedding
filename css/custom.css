@@ -110,10 +110,11 @@ body {
 }
 
 .gallery {
-    display: inline-block;
+    /*display: inline-block;*/
     margin-top: 90px;
     background-color: transparent;
     box-shadow: none;
+    display: block; overflow-x: scroll; white-space: nowrap;
 }
 
 .thumbnail img {
@@ -122,6 +123,15 @@ body {
     border: 0;
     box-shadow: 0;
     border-radius: 0;
+}
+
+#fancybox-thumbs {
+    /*width: 100% !important;*/
+}
+
+#fancybox-thumbs ul {
+    /*max-lines: 1;*/
+    /*max-height: 50px;*/
 }
 
 .lead {
@@ -346,5 +356,9 @@ a.list-group-item .list-group-item-heading {
 }
 
 .navbar-wrapper {
-    z-index: 10000;
+    z-index: 5000;
+}
+
+#fancybox-thumbs {
+    max-width: none;
 }
